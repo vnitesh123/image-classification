@@ -19,7 +19,7 @@ CNNs were chosed as the model to be trained due to their widespread adoption and
 1. One of the metrics chosen for the evaluation are accuaracy and the overall test accuracy obtained was close to 90%.
 2. A confusion matrix was created for the visualization of predicted classes and true classes from which it has been obsereved that the number of False negatives and false positives were huge and the model is underporforming in classifying the sclerotic glomeruli images. Some of the ways to improve this metrics further is by resizing the images to a bmuch better resolution than 128x128 so that the model is able to distinguish the images well and also add more samples of sclerotic glomeruli as the augmentations could have resulted in the model to learn redundant patterns and not being able to capture the complex variations.
 
-Link to model - [file](https://drive.google.com/file/d/1Fwv-8R9nwqnA_xhGUFhA-EAAqmBRdjn2/view?usp=sharing)
+Link to model - [file](https://uflorida-my.sharepoint.com/:u:/g/personal/varanasin_ufl_edu/ETGSVVwMos9GvCgGs2yYtMgBqOYXI_P_OaSOvYOLoYQfJw?e=2SFze1)
 
 ### Evaluation
 A script evaluation.py was created that accepts the folder to test images as an argument and also the model file needs to be in the same directory as of the script with file name 'model_weights_cnn.h5'. The output csv file contains the image file name and the predicted class.
