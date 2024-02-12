@@ -52,7 +52,7 @@ for filename in os.listdir(test_data_folder):
     # Appending filename and predicted class to predictions list
     predictions.append((filename, predicted_class))
 
-# Write predictions to CSV file
+# Writing predictions to CSV file
 with open(output_csv_file, mode='w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['Filename', 'Predicted Class'])
